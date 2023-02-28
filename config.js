@@ -7,19 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "PandaPolis";
 const description = "Be a Panda, move like a Panda! PandaPolis is a collection of 5000 hand-drawn and randomly generated NFTs that will allow you to connect the Internet with the real world.";
-const baseUri = "ipfs://QmbJEfHuf3FCHnCFbhz2BP2bXPU91bAkXXgWoW6mysLZvg";
-
-const solanaMetadata = {
-  symbol: "YC",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
-  creators: [
-    {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
-      share: 100,
-    },
-  ],
-};
+const baseUri = "";
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
