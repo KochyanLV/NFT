@@ -12,7 +12,7 @@ const CollectionConfig: CollectionConfigInterface = {
   contractName: 'Pandapoldem',
   tokenName: 'PandaPolis Sep22',
   tokenSymbol: 'PPD',
-  hiddenMetadataUri: 'ipfs://QmPtCadHGR1NiuqiGCC5CoVLVNJQfNpjoM4Q6t4JkBcbVE/hidden.json',
+  hiddenMetadataUri: '',
   maxSupply: 5000,
   whitelistSale: {
     price: 0.02,
@@ -26,7 +26,7 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 0.02,
     maxMintAmountPerTx: 5,
   },
-  contractAddress: "0x0C25f15F9198EeEB19EDDA531d4910a8Cc709be2",
+  contractAddress: "",
   marketplaceIdentifier: 'my-nft-token',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
